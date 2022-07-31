@@ -10,10 +10,12 @@ categories: tuto
 readtime: true
 comments: true
 gh-badge: [star, fork, follow]
+cover-img: "https://jekyllrb.com/img/jekyll-og.png"
+thumbnail-img: /assets/img/hello_world.jpeg
 ---
 
 # Pourquoi Jekyll ?
-Bloguer devrait seulement être un travail d'écriture et pas un travail d'admin système sans fin où le quotidien est fait d'installation de mises à jour de sécurité, gestion de plugins et d'ajustement des performances d’un site Web afin que les pages se chargent rapidement... Clairement, j'ai d'autres chats à fouetter. 
+Je considère que bloguer devrait seulement être un travail d'écriture et pas un travail d'admin système sans fin où le quotidien est fait d'installation de mises à jour de sécurité, de gestion de plugins et d'ajustement des performances d’un site Web afin que les pages se chargent rapidement... Clairement, j'ai d'autres chats à fouetter. 
 
 Après quelques recherches, je me suis tourné vers Jekyll, qui est une solution s'appuyant sur Ruby. Pas d'interface d'administration, seulement des fichiers sources créés à partir d'un terminal (ça, c'est mon côté geek qui ressort). Jekyll est capable de convertir vos fichiers HTML ou Markdown en contenu statique, en s'appuyant sur un thème pour la mise en page.
 
@@ -34,18 +36,24 @@ Vous avez presque installé Ruby sur Windows! Une fois l’assistant d’install
 
 Vous pouvez maintenant fermer l’invite de commande et en ouvrir une nouvelle, car maintenant que nous avons installé Ruby, il est temps d’installer Jekyll! Dans la nouvelle invite de commandes, exécutez la commande :
 
-    gem install jekyll bundler
+```bash
+gem install jekyll bundler
+```
 
 Confirmons que Jekyll est installé sur Windows en sortant la version de Jekyll sur notre machine. Pour ce faire, exécutez la commande :
 
-    jekyll -v
+```bash
+jekyll -v
+```
 
 Vous êtes maintenant prêt à utiliser Jekyll dans la ligne de commande pour créer votre nouveau blog!
 
 Comment créer un nouveau blog à l’aide de Jekyll
 En utilisant Jekyll, nous pouvons utiliser une commande pour créer un nouveau blog avec un thème, un article et une page par défaut. Créez un nouveau dossier sur votre PC pour votre blog Jekyll et utilisez son chemin complet comme paramètre dans la commande suivante :
 
-    jekyll new PATH
+```bash
+jekyll new PATH
+```
 
 C’est tout ! Si vous vérifiez le dossier, Jekyll aura créé les fichiers nécessaires pour votre nouveau blog; y compris le thème Minima par défaut, un exemple de publication et de page et les paramètres de configuration par défaut.
 
@@ -53,7 +61,9 @@ Voyons à quoi ça ressemble! Je vais utiliser l’éditeur de code gratuit Visu
 
 Ouvrez le dossier Jekyll dans Visual Studio Code et créez un nouveau terminal (Ctrl+'). Maintenant, nous pouvons exécuter la commande pour construire et servir localement notre blog Jekyll:
 
-    jekyll serve
+```bash
+jekyll serve
+```
 
 Une fois que Jekyll a utilisé les fichiers sources pour créer le site Web, nous pouvons maintenant utiliser l’adresse du serveur générée par Jekyll pour afficher notre nouveau blog localement dans le navigateur.
 
@@ -72,13 +82,17 @@ Créons un nouveau référentiel GitHub afin de pouvoir publier notre nouveau bl
 
 Clonez le nouveau référentiel sur votre PC à l’aide de git :
 
-    git clone https://github.com/username/username.github.io
+```bash
+git clone https://github.com/username/username.github.io
+```
 
 Copiez et collez tous vos fichiers Jekyll dans le nouveau référentiel local de votre PC et transférez vos modifications dans le référentiel :
 
-    git add --all
-    git commit -m "Initial commit of Jekyll blog"
-    git push -u origin main
+```bash
+git add --all
+git commit -m "Initial commit of Jekyll blog"
+git push -u origin main
+```
 
 Voilà! Vous pourrez maintenant consulter votre blog Jekyll à l’adresse https://username.github.io.
 
