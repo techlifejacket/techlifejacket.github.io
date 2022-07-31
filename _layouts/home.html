@@ -2,24 +2,16 @@
 layout: page
 ---
 
-{% if site.homepage.intro-text.size > 0 or site.homepage.intro-image.size > 0 %}
-    <section class="text-center">
-        {% if site.homepage.intro-text.size > 0 %}
-        <p>{{ site.homepage.intro-text }}</p>
-        {% endif %}
 
-        {% if site.homepage.intro-image.size > 0 %}
-        {%
-            include image.html
-            file=site.homepage.intro-image
-            alt=site.title
-        %}
-        {% endif %}
-        <p>Si le coeur t'en dit, offre-moi un café !</p>
-        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="techlifejacket" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-    
-    </section>
-    {% endif %}
+<section class="text-center">
+  <p>{{ site.homepage.intro-text }}</p>
+  <img src="/assets/img/espressodrink.png" alt="TechLifeJacket Drinking Coffee">
+
+  <p>Si le coeur t'en dit, offre-moi un café !</p>
+  <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="techlifejacket" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
+</section>
+
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}

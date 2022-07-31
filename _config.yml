@@ -246,7 +246,7 @@ date_format: "%-d/%m/%Y"
 homepage:
   header-text: 'TechLifeJacket : mon blog gilet de sauvetage'
   intro-text: 'Bonjour et bienvenue sur mon blog.  Ici, je partage mes astuces, mes galères et réflexions.  Je considère que le savoir ne vaut rien s''il n''est pas transmis, c''est pourquoi je vais essayer de partager mes notes, mes bouts de code ou tout autre truc intéressant en essayant de soigner un minimum la rédaction. Ce qui est écrit ici n''engage que moi, bienvenue dans ma tête :)'
-  intro-image: 'espressodrink.png'
+  intro-image: '/assets/img/espressodrink.png'
 
 
 #################################################################################
