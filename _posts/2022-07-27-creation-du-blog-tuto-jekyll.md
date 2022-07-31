@@ -4,12 +4,10 @@ date: 2022-07-27 23:27:00:00 +02:00
 author: seb
 layout: post
 image: /assets/img/2021/06/deep-fried.png
-icon: jekyll-logo
 tags: jekyll
 categories: tuto
 readtime: true
 comments: true
-gh-badge: [star, fork, follow]
 cover-img: "https://jekyllrb.com/img/jekyll-og.png"
 thumbnail-img: /assets/img/hello_world.jpeg
 ---

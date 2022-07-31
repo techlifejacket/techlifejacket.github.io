@@ -27,6 +27,8 @@ navbar-links:
   Accueil: "index"
   Catégories: "categories"
   Tags: "tags"
+  Liens utiles :
+    - NoMoreRansom: "https://www.nomoreransom.org/"
   A Propos: "aboutme"
 
 ################
