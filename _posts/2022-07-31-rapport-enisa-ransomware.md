@@ -3,7 +3,7 @@ title: "Rapport 2022 de l'ENISA sur la menace ransomware"
 date: 2022-07-31 17:27:00:00 +02:00
 author: seb
 layout: post
-tags: [enisa,ransomware]
+tags: [enisa,ransomware,leds]
 categories: sécurité
 readtime: true
 comments: true
