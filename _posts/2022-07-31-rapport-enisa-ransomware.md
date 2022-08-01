@@ -65,3 +65,5 @@ Kaseya est une plate-forme de surveillance et de gestion à distance (RMM). Leur
 _Schéma de l'attaque de la chaîne d'approvisionnement de Kaseya. Les attaquants ont déployé du code sur les instances VSA de fournisseurs MSP (que ce soit dans le cloud ou sur site est toujours à l'étude).
 Certains MSP ont été exploités, à leur tour, pour déployer des logiciels malveillants et des rançongiciels chez leurs clients._
 ![KASEYA](/assets/img/posts/2022/07/31/kaseya-schema.png)
+
+{: .box-note} Si vous êtes victime d'un rançongiciel, pensez à visiter le site [NO MORE RANSOM](https://www.nomoreransom.org/) pour vérifier s'il existe un outil de déchiffrement.
