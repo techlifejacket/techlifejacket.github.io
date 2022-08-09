@@ -10,8 +10,6 @@ cover-img: "assets/img/banners/cybersec.jpeg"
 thumbnail-img: "assets/img/posts/2022/08/cybersec.png"
 ---
 
-# Résumé
-
 Une campagne utilisant des techniques *adversary-in-the-middle (AiTM)* (voir [T1557](https://attack.mitre.org/techniques/T1557) pour plus d'infos) associées à des techniques d'évasion diverses cible les utilisateurs de plateformes Office 365. Cette technique d'attaque vise à contourner l'authentification multifacteur.
 
 La technique AiTM consiste  à placer l'attaquant au milieu du processus d'authentification au travers d'un serveur *proxy* afin de voler les identifiants de l'utilisateur durant le processus d'authentification. Microsoft explique d'ailleurs le fonctionnement de cette attaque en détails [sur son blog dédéié à la sécurité.](https://www.microsoft.com/security/blog/2022/07/12/from-cookie-theft-to-bec-attackers-use-aitm-phishing-sites-as-entry-point-to-further-financial-fraud/) Le schéma suivant résume le processus d'attaque :
