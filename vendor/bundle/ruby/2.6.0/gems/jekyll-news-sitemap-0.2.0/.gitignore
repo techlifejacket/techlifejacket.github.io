@@ -1,5 +1,0 @@
-.bundle
-*.gem
-spec/dest
-spec/fixtures/.jekyll-cache
-vendor/bundle
