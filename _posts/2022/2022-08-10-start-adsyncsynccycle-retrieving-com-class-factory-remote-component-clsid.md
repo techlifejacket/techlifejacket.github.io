@@ -1,6 +1,6 @@
 ---
 title: "Solution à l'erreur : Start-ADSyncSyncCycle : Retrieving the COM class factory for remote component with CLSID {835BEE60-8731-4159-8BFF-941301D76D05}"
-date: 2022-08-10 17:45:00:00 +01:00
+date: 2022-08-10 16:45:00:00 +01:00
 layout: post
 tags: [m365,azure ad connect, azure]
 categories: azure-ad
