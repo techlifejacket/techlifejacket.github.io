@@ -6,7 +6,7 @@ tags: [m365,sauvegarde,conformité]
 categories: Microsoft 365
 readtime: true
 comments: true
-cover-img: "assets/img/banners/office-365-banner.jpeg"
+cover-img: "assets/img/banners/office-365-banner.png"
 thumbnail-img: "assets/img/posts/2022/08/microsoft-365-thumb.png"
 ---
 
