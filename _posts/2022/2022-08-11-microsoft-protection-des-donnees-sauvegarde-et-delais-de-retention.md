@@ -10,8 +10,6 @@ cover-img: "assets/img/banners/office-365-banner.jpeg"
 thumbnail-img: "assets/img/posts/2022/08/microsoft-365-thumb.png"
 ---
 
-# Généralités
-
 Les services Microsoft 365 sont généralement géo-redondants : les données sont stockées dans au moins deux datacenter.
 
 Cassons le mythe tout de suite : **Microsoft ne sauvegarde pas les données de ses clients** mais fournit juste des outils permettant la rétention et la récupération des éléments supprimés. Microsoft assure la haute disponibilité des données, **le client final reste responsable de ses données**. Cela étant dit, la nécessité d'utiliser un système de sauvegarde devient évidente.
