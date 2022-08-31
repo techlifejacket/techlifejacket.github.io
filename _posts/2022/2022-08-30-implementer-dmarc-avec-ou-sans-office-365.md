@@ -10,7 +10,7 @@ cover-img: "assets/img/banners/email-authentication.png"
 thumbnail-img: "assets/img/posts/2022/08/email-authentication-thumb.png"
 ---
 
-Tout administrateur de services de messagerie devrait implémenter le protocole **DMARC** qui veut dire *Domain-based Message Authentication, Reporting and Conformance*. Ce protocole s'appuie sur DKIM et SPF (on aura l'occasion d'en reparler). La mise en oeuvre de ces trois protocoles permet d'authentifier les courriels et d'obtenir des rapports à des fins d'analyse.
+Tout administrateur de services de messagerie devrait implémenter le protocole **DMARC** qui veut dire *Domain-based Message Authentication, Reporting and Conformance*. **DMARC** s'appuie sur DKIM et SPF (on aura l'occasion d'en reparler) pour authentifier les courriels afin de lutter contre l'usurpation d'identité. Il est également possible d'obtenir des rapports à des fins d'analyse lors de la mise en place du protocole ainsi que tout au long du cycle de vie de la politique DMARC afin de suivre les échecs de remise.
 
 # Réfléchissez avant de cliquer
 DMARC est utilisé pour lutter notamment contre le *phishing* (*hameçonnage* en français). Ces attaques sont probablement les plus répandues sur Internet : elles sont faciles à mettre en oeuvre et donnent de très bons résultats grâce à [Madame Michu](https://fr.wiktionary.org/wiki/Madame_Michu). Le but de ces attaques ? Récupérer du fric et des données (et donc encore plus de fric) par tous les moyens : fausses factures, arnaque au président, ransomware, ... 
@@ -27,7 +27,7 @@ Une politique stricte fonctionne de la manière suivante : vous utilisez DKIM po
 
 DMARC ne vous protègera pas contre la réception de courriels frauduleux ou de phishing n'usurpant pas vos domaines. Mettez en place une protection complémentaire sur vos serveurs de messagerie, plateforme Office 365 ou Google Workspace. 
 
-*Information intéressante pour les administrateurs de plateformes Office 365 : une politique DMARC stricte ne vous protègera pas totalement en raison de la politique de Microsoft relative aux "Safe Senders". Je vous renvoie vers le [post LinkedIn de Christophe DARY](https://www.linkedin.com/posts/christophe-dary-85330561_mitiga-phishing-microsoft-activity-6970377905944068097-tnKW?utm_source=share&utm_medium=member_desktop) pour plus d'infos.*
+*Information intéressante pour les administrateurs de plateformes Office 365 : une politique DMARC stricte ne vous protègera pas totalement en raison de la politique de Microsoft relative aux "Safe Senders". Je vous renvoie vers ce [post LinkedIn de Christophe DARY](https://www.linkedin.com/posts/christophe-dary-85330561_mitiga-phishing-microsoft-activity-6970377905944068097-tnKW?utm_source=share&utm_medium=member_desktop) pour plus d'infos.*
 
 # Le processus de traitement DMARC illustré
 
