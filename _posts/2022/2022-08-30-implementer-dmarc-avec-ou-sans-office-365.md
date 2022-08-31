@@ -12,8 +12,10 @@ thumbnail-img: "assets/img/posts/2022/08/email-authentication-thumb.png"
 
 Tout administrateur de services de messagerie devrait implémenter le protocole **DMARC** qui veut dire *Domain-based Message Authentication, Reporting and Conformance*. **DMARC** s'appuie sur DKIM et SPF (on aura l'occasion d'en reparler) pour authentifier les courriels afin de lutter contre l'usurpation d'identité. Il est également possible d'obtenir des rapports à des fins d'analyse lors de la mise en place du protocole ainsi que tout au long du cycle de vie de la politique DMARC afin de suivre les échecs de remise.
 
-# Réfléchissez avant de cliquer
+# Règle n°1 : Réfléchissez avant de cliquer !
 DMARC est utilisé pour lutter notamment contre le *phishing* (*hameçonnage* en français). Ces attaques sont probablement les plus répandues sur Internet : elles sont faciles à mettre en oeuvre et donnent de très bons résultats grâce à [Madame Michu](https://fr.wiktionary.org/wiki/Madame_Michu). Le but de ces attaques ? Récupérer du fric et des données (et donc encore plus de fric) par tous les moyens : fausses factures, arnaque au président, ransomware, ... 
+
+La mise ne place d'une politique ne remplacera jamais le bon sens des utilisateurs de vos services de messagerie.
 
 On ne le répétera jamais assez : **réfléchissez avant de cliquer** !
 
