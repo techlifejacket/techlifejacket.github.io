@@ -16,15 +16,15 @@ Un enregistrement DMARC apparaît toujours sous la forme *_dmarc.entreprise.fr*.
 
 | **Attribute** | **Description**                                                                                        | **Mandatory** | **Default Value**                        | **Sample Value**                 |
 |---------------|--------------------------------------------------------------------------------------------------------|---------------|------------------------------------------|----------------------------------|
-| **v**         | Version \- must be set to "DMARC1" and must be the first tag in the list                               | Yes           | \-                                       | v=DMARC1                         |
-| **p**         | Requested policy that recipient should apply to email\. Can be set to "none", "quarantine" or "reject" | Yes           | \-                                       | p=none                           |
-| **rua**       | RUI \(mail address\) where to send aggregate reports                                                   | No            | \-                                       | rua=mailto:dmarc@company\.com    |
-| **ruf**       | RUI \(mail address\) where to send message\-specific failure information                               | No            | \-                                       | ruf=mailto:forensic@company\.com |
-| **pct**       | Percentage of messages subject to filtering, i\.e\. only check 10% of emails                           | No            | 100                                      | pct=10                           |
-| **sp**        | Policy to apply to subdomains                                                                          | No            | Same as top domain policy \(value of p\) | sp=quarantine                    |
-| **adkim**     | Assigns strict or relaxed DKIM identifier alignment, "r" is relaxed, "s" is strict                     | No            | r                                        | adkim=s                          |
-| **aspf**      | Assigns strict or relaxed SPF identifier alignment, "r" is relaxed, "s" is strict                      | No            | r                                        | aspf=s                           |
-| **ri**        | Requested interval between aggregate reports in seconds                                                | No            | 86400                                    | ri=43200                         |
+| **v**         | Version \- doit être défini sur « DMARC1 » et doit être la première balise de la liste                 | Oui           | \-                                       | v=DMARC1                         |
+| **p**         | Stratégie que le destinataire doit appliquer à l’e-mail. Peut être réglé sur « non », « quarantine » ou « reject » | Oui           | \-                                       | p=none                           |
+| **rua**       | adresse e-mai où envoyer des rapports agrégés                                                          | Non           | \-                                       | rua=mailto:dmarc@company\.com    |
+| **ruf**       | adresse e-mail où envoyer des informations d'échecs spécifiques à un message                           | Non           | \-                                       | ruf=mailto:forensic@company\.com |
+| **pct**       | Pourcentage de messages soumis à filtrage                                                              | Non           | 100                                      | pct=10                           |
+| **sp**        | 	Stratégie à appliquer aux sous-domaines                                                              | Non           | Same as top domain policy \(value of p\) | sp=quarantine                    |
+| **adkim**     | Alignement du DKIM strict "s" ou relaxed "r"                                                           | Non           | r                                        | adkim=s                          |
+| **aspf**      | Alignement du SPF strict "s" ou relaxed "r"                                                            | Non           | r                                        | aspf=s                           |
+| **ri**        | Intervalle demandé entre les rapports agrégés en secondes                                              | Non           | 86400                                    | ri=43200                         |
 
 En utilisant les informations du tableau ci-dessus, voici un exemple d’enregistrement DMARC qui effectuera une vérification stricte de l’alignement des identifiants DKIM et SPF, mettra en quarantaine tout e-mail qui échoue à la validation DKIM et SPF et enverra des rapports agrégés à dmarc@company.com :
 
