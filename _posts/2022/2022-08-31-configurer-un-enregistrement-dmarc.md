@@ -14,7 +14,7 @@ Un enregistrement DMARC apparaît toujours sous la forme *_dmarc.entreprise.fr*.
 
 # Attributs d'un enregistrement DMARC
 
-| **Attribute** | **Description**                                                                                        | **Mandatory** | **Default Value**                        | **Sample Value**                 |
+| **Attribut** | **Description**                                                                                        | **Obligatoire** | **Valeur par défaut**                        | **Exemple**                 |
 |---------------|--------------------------------------------------------------------------------------------------------|---------------|------------------------------------------|----------------------------------|
 | **v**         | Version \- doit être défini sur « DMARC1 » et doit être la première balise de la liste                 | Oui           | \-                                       | v=DMARC1                         |
 | **p**         | Stratégie que le destinataire doit appliquer à l’e-mail. Peut être réglé sur « non », « quarantine » ou « reject » | Oui           | \-                                       | p=none                           |
