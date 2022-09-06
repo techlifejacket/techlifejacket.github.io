@@ -237,8 +237,8 @@ giscus:
   hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
   repository: "techlifejacket/techlifejacket.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
   repository-id: "R_kgDOHvPzrQ" # ID of your repository, retrieve this info from https://giscus.app
-  category: Announcements # Category name of your GitHub Discussion posts
-  category-id: "DIC_kwDOHvPzrc4CQgvn" # ID of your category, retrieve this info from https://giscus.app
+  category: Comments # Category name of your GitHub Discussion posts
+  category-id: "DIC_kwDOHvZ67s4CQhWt" # ID of your category, retrieve this info from https://giscus.app
   mapping: og:title
   reactions-enabled: 1
   emit-metadata: 0
