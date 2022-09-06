@@ -86,7 +86,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Ce site est une preuve virtuelle que je suis génial. Vraiment.
+rss-description: Ce blog est une preuve virtuelle que je suis génial. Vraiment.
 
 ###########################
 # --- General options --- #
@@ -243,6 +243,7 @@ giscus:
   reactions-enabled: 1
   emit-metadata: 0
   theme: light
+  data-lang: fr
 
 ################
 # --- Misc --- #
