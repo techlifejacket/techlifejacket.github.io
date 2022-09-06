@@ -239,7 +239,7 @@ giscus:
   repository-id: "R_kgDOHvPzrQ" # ID of your repository, retrieve this info from https://giscus.app
   category: Announcements # Category name of your GitHub Discussion posts
   category-id: "DIC_kwDOHvPzrc4CQgvn" # ID of your category, retrieve this info from https://giscus.app
-  mapping: pathname
+  mapping: og:title
   reactions-enabled: 1
   emit-metadata: 0
   theme: light
