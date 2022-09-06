@@ -22,7 +22,7 @@ Vous aurez besoin d'installer les deux modules *MSOnline* et *AzureAD* car toute
 
 Tout d’abord, installeons les deux modules PowerShell. Vous pouvez les utiliser ensemble sur votre système sans aucun problème.
 
-1. Installer le module AzureAd dans Powershell
+### Installer le module AzureAd dans Powershell
 
 Ouvrez PowerShell en mode administrateur (*Touche Windows + X* et sélectionnez Windows PowerShell (Admin))
 Tapez la commande suivante : 
@@ -31,13 +31,13 @@ Tapez la commande suivante :
 Install-Module AzureAD
 ```
 
-2. Installer le module MSOnline
+### Installer le module MSOnline
 
 ```powershell
 Install-Module MSOnline
 ```
 
-3. Installer le module Exchange Online Management
+### Installer le module Exchange Online Management
 
 ```powershell
 Install-Module ExchangeOnlineManagement

@@ -20,7 +20,7 @@ La technique AiTM consiste  à placer l'attaquant au milieu du processus d'authe
 
 - **Utiliser des politiques d'accès conditionnel :** Les politiques d'accès conditionnel sont  appliquées chaque fois qu'un attaquant tente d'utiliser un cookie de session volé. Vous pouvez protéger votre plateforme Microsoft 365 contre les attaques qui exploitent les informations d'identification volées en activant des politiques telles que l'obligation d'utiliser des appareils conformes aux politiques de sécurité définies sur votre plateforme ou en exigeant une connexion depuis une plage d'adresses IP de confiance pour certains de vos utilisateurs.
 
-- **Investissez dans des solutions anti-hameçonnage avancées** qui surveillent et analysent les courriels entrants et les sites Web visités. Implémentez également les protocoles SPF, DKIM et DMARC pour vous prémunir des tentatives d'usurpation d'identité.  
+- **Mettre en place des solutions anti-hameçonnage avancées** qui surveillent et analysent les courriels entrants et les sites Web visités. Implémentez également les protocoles SPF, DKIM et DMARC pour vous prémunir des tentatives d'usurpation d'identité sur vos domaines.  
 
 - Si vous bénéficiez du plan de licence adéquat, sachez que **Microsoft 365 Defender** est en capacité de bloquer les attaque *AiTM* 
 ![AiTM Defender 365](/assets/img/posts/2022/08/Figure12-stolen-session-cookie.png)
